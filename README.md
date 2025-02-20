@@ -2,10 +2,10 @@
 Add this plugin to your project build script, take `build.gradle` as example.
 ```
 plugins {
-    id 'com.bamboo.fmpp' version '0.1'
+    id 'io.github.chengxianglibra.fmpp' version '0.1'
 }
 
-tasks.register('fmppMain', com.bamboo.fmpp.FmppTask) {
+tasks.register('fmppMain', io.github.chengxianglibra.fmpp.FmppTask) {
     inputs.dir("path-to-input")
     config.set(file("path-to-config-file"))
     defaultConfig.set(file("path-to-default-config-file-if-any"))
