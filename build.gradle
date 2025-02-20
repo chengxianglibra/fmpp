@@ -28,7 +28,7 @@ gradlePlugin {
             implementationClass = 'io.github.chengxianglibra.fmpp.FmppPlugin'
             displayName = 'fmpp plugin'
             description = 'Generate Sql Parser with FreeMarker templates'
-            tags.set(['sql parser', 'freemarker'])
+            tags.set(['sql parser', 'freemarker', 'fmpp'])
         }
     }
 }
