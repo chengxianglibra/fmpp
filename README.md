@@ -13,4 +13,4 @@ tasks.register('fmppMain', com.bamboo.fmpp.FmppTask) {
     output.dir("path-to-output")
 }
 ```
-Internally, this plugin use fmpp to generate source file on freemarker template, see (fmpp)(https://fmpp.sourceforge.net/) for more details.
+Internally, this plugin use fmpp to generate source file with freemarker template, see [fmpp](https://fmpp.sourceforge.net/) for more details.

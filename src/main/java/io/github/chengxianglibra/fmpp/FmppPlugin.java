@@ -16,7 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-package com.bamboo.fmpp;
+package io.github.chengxianglibra.fmpp;
 
 import org.gradle.api.Plugin;
 import org.gradle.api.Project;
